@@ -36,7 +36,7 @@ class CircularCountDownTimer extends StatefulWidget {
   final ValueChanged<String>? onChange;
 
   /// Countdown duration in Seconds.
-  final int duration;
+  int duration;
 
   /// Countdown initial elapsed Duration in Seconds.
   final int initialDuration;
